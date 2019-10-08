@@ -17,7 +17,7 @@ spec:
           image: postgres
           volumeMounts:
             - name: postgres-storage
-              mountPath: /var/lib/postgresql/data
+              mountPath: lib/postgresql/data
               subPath: postgres
           env:
             - name: PGPASSWORD
